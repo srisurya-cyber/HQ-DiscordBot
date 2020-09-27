@@ -24,7 +24,7 @@ Raven.configure do |config|
   config.dsn = CONFIG['raven']
 end
 
-Bot = Discordrb::Commands::CommandBot.new(token: CONFIG['token'],
+Bot = Discordrb::Commands::CommandBot.new(token: CONFIG['NzU5NzExMzk2MzI1NDkwNzE4.X3BeXw.xVNd5hLYeOqroc2UqYFGA2ad24A'],
                                           client_id: CONFIG['client_id'],
                                           prefix: prefixes,
                                           ignore_bots: true,
